@@ -1,7 +1,7 @@
 import { useLoaderData, Form } from "react-router-dom";
 
 function Show(props) {
-    const bookmark = useLoaderData()
+    const bookmark = useLoaderData();
 
     return (
         <div className="bookmark">
@@ -14,8 +14,8 @@ function Show(props) {
             </Form>
 
             <h2>Delete bookmark</h2>
-            <Form action={`/delete/${cheese._id}`} method="post">
-                <input className="button" type="submit" value="Delete cheese"/>
+            <Form action={`/delete/${bookmark._id}`} method="post">
+                <input className="button" type="submit" value="Delete bookmark"/>
             </Form>
         </div>
     )
