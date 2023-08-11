@@ -4,7 +4,7 @@ function Index(props) {
     const bookmarks = useLoaderData();
     
     return (
-        <div>
+        <div className="bookmark-container">
             <h2>Create a Bookmark</h2>
             <Form action="/create" method="post">
                 <input type="text" name="title" placeholder="book's title"/>
@@ -17,7 +17,6 @@ function Index(props) {
                         <Link to={`/${bookmark._id}`}>
                             <h1>{bookmark.title}</h1>
                         </Link>
-                    <a><h2>{bookmark.url}</h2></a>
                     </div>
                 );
         })}
