@@ -11,12 +11,12 @@ function Show(props) {
             <Form action={`/update/${bookmark._id}`} method="post">
                 <input type="text" name="title" placeholder="book's title" defaultValue={bookmark.title} />
                 <input type="text" name="url" placeholder="book's url" defaultValue={bookmark.url} />
+                <input type="submit" value="Update Bookmark" />
             </Form>
             
-            <Form action={`/delete/${bookmark._id}`} method="post"></Form>
-
-            <input type="submit" value="Update Bookmark" />
+            <Form action={`/delete/${bookmark._id}`} method="post">
             <input className="button" type="submit" value="Delete bookmark"/>
+            </Form>
         </div>
     )
 }
