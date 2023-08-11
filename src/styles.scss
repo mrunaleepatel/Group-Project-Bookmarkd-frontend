@@ -3,13 +3,15 @@
 // header //
 
 .app-name {
+  color: brown;
   padding: 1em;
   width: 700px;
   font-size: 1.7em;
-  font-family: cursive;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 3px;
   font-weight: bolder;
   border-radius: 10px;
-  box-shadow: 0 0 0 1px red, 0 0 0 2px brown;
+  box-shadow: 0 0 0 1px black, 0 0 0 2px brown;
   background-color: whitesmoke;
   line-height: 1em;
   margin: 0 auto;
