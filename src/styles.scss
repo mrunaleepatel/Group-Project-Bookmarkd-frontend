@@ -1,5 +1,21 @@
 // SHOW/CONTAINER STYLING 
 
+// header //
+
+.app-name {
+  padding: 1em;
+  width: 700px;
+  font-size: 1.7em;
+  font-family: cursive;
+  font-weight: bolder;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px red, 0 0 0 2px brown;
+  background-color: whitesmoke;
+  line-height: 1em;
+  margin: 0 auto;
+  margin-top: 0.5em;
+}
+
 /* Style for the body */
 body {
     background-color: aliceblue;

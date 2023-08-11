@@ -5,6 +5,8 @@ function Header(props){
         <Link to="/">
             <div>Bookmark App</div>
         </Link>
+        <h1 className="app-name">What is our app name?</h1>
+
     </nav>
 
 }
