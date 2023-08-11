@@ -18,19 +18,21 @@
 
 /* Style for the body */
 body {
-    background-color: aliceblue;
+    background-color: #66442F;
 }
 
 h3 {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 30px;
+    color: #66442F;
 }
 
 h4 {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 15px;
+    color: #66442F;
 }
   /* Style for the navigation */
 .nav {
@@ -40,13 +42,15 @@ h4 {
   
   .nav a {
     text-decoration: none;
-    color: brown;
+    color: #66574E;
     font-weight: bold;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 3px;
   }
   
   /* Style for the navigation container */
   .nav div {
-    border: 1px solid brown;
+    border: 1px solid #A39690;
     padding: 10px 20px;
     border-radius: 8px;
     display: inline-block;
@@ -56,10 +60,10 @@ h4 {
   
   /* Style for the bookmark container */
   .bookmark-container {
-    padding: 25px;
+    padding: 35px;
     width: 700px;
     margin: 0 auto;
-    background-color:lavender;
+    background-color:#FFD6BD;
     border-radius: 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center the content */
@@ -85,7 +89,7 @@ h4 {
   
   /* Style for the submit buttons */
   .bookmark-container input[type="submit"] {
-    background-color: brown;
+    background-color: #66574E;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -96,15 +100,15 @@ h4 {
   }
   
   .bookmark-container input[type="submit"]:hover {
-    background-color: aliceblue;
-    color: brown;
+    background-color: #66574E;
+    color: #FFD6BD;
   }
   
   /* Align the buttons horizontally */
   .bookmark-container h2 {
     display: inline-block;
     margin-right: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
   }
   
   /* Clear floating elements */
