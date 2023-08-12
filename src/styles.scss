@@ -35,6 +35,8 @@ h4 {
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 15px;
     color: #66442F;
+    overflow-wrap: break-word;
+    word-break: break-all;
 }
   /* Style for the navigation */
 .nav {
@@ -150,5 +152,4 @@ h4 {
     display: table;
     clear: both;
   }
-  
   
