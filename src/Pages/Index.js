@@ -6,10 +6,10 @@ function Index(props) {
     return (
         <div className="bookmarks-container">
             <Form action="/create" method="post" className="bookmark-form">
-                <h2 className="bookmark-form">Create a Bookmark</h2>
-                <input type="text" name="title" placeholder="book's title"/>
-                <input type="text" name="url" placeholder="book's url" />
-                <input type="submit" value="Create Bookmark"/>
+                <h2 className="bookmark-form">Add a new item to your wishlist:</h2>
+                <input type="text" name="title" placeholder="Item name"/>
+                <input type="text" name="url" placeholder="Item URL" />
+                <input type="submit" value="Add Item"/>
             </Form>
             <ul>
             {bookmarks.map((bookmark, index) => {
