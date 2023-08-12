@@ -9,7 +9,7 @@
   font-family: cursive;
   font-weight: bolder;
   border-radius: 10px;
-  box-shadow: 0 0 0 1px #C4EA93, 0 0 0 2px brown;
+  box-shadow: 0 0 0 1px rgb(109, 107, 107), 0 0 0 2px #011F4B;
   background-color: #FFE5B4;
   line-height: 1em;
   margin: 0 auto;
@@ -55,7 +55,7 @@ h4 {
   
   /* Style for the navigation container */
   .nav div {
-    border: 1px solid #A5E650;
+    border: 1px solid rgb(109, 107, 107);
     padding: 10px 20px;
     border-radius: 8px;
     display: inline-block;
@@ -91,7 +91,7 @@ h4 {
   
   /* Style for the submit buttons */
   .bookmark-form input[type="submit"] {
-    background-color: #66574E;
+    background-color: #011F4B;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -102,8 +102,8 @@ h4 {
   }
   
   .bookmark-form input[type="submit"]:hover {
-    background-color: #66574E;
-    color: #011F4B;
+    background-color: #0086ad;
+    color: whitesmoke
   }
 
   .bookmarks-container ul {
