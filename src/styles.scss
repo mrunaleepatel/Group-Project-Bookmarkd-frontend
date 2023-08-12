@@ -1,7 +1,27 @@
 // SHOW/CONTAINER STYLING 
 
-// header //
+/* Style for the body */
+body {
+  background-color: #0086ad;
+}
 
+h3 {
+  text-align: center;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 30px;
+  color: #011F4B;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 15px;
+  color: #011F4B;
+  overflow-wrap: break-word; //URL overflow fix
+  word-break: break-all; //URL overflow fix
+}
+
+// header //
 .app-name {
   padding: 1em;
   width: 80%;
@@ -18,27 +38,6 @@
   letter-spacing: 3px;
 }
 
-/* Style for the body */
-body {
-    background-color: #0086ad;
-}
-
-h3 {
-    text-align: center;
-    font-family: 'Bricolage Grotesque', sans-serif;
-    font-size: 30px;
-    color: #011F4B;
-}
-
-h4 {
-    text-align: center;
-    font-family: 'Bricolage Grotesque', sans-serif;
-    font-size: 15px;
-    color: #011F4B;
-    overflow-wrap: break-word;
-    word-break: break-all;
-
-}
   /* Style for the navigation */
 .nav {
     text-align: center;
@@ -78,6 +77,19 @@ h4 {
     h2 {
       font-size: 30px;
       }
+
+    // Styling the links
+    a {
+      text-decoration: none;
+      color: #011F4B;
+      }
+  
+    // Hovering over the links (to match hovering over buttons)
+    a:hover {
+      color: #0086ad;
+      transition: color 0.3s ease;
+      }
+
   }
   
   /* Style for the form inputs */
@@ -100,31 +112,36 @@ h4 {
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-  
+
+  // Hovering over the buttons
   .bookmark-form input[type="submit"]:hover {
     background-color: #0086ad;
     color: whitesmoke
   }
 
+  // Styling for the bookmarks (container)
   .bookmarks-container ul {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(425px, 1fr));
     grid-gap: 5px 10px;
   }
 
+  // Styling for the individual bookmark components
   .bookmark {
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 30px;
     list-style: none;
     color: #011F4B;
 
+    // Syling the links for the bookmark names
     a {
       text-decoration: none;
       color: #011F4B;
     }
 
+    // Hovering over the links (to match hovering over buttons)
     a:hover {
-      color: #011F4B;
+      color: #0086ad;
       transition: color 0.3s ease;
     }
 
