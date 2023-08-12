@@ -4,37 +4,37 @@
 
 .app-name {
   padding: 1em;
-  width: 700px;
+  width: 400px;
   font-size: 1.7em;
   font-family: cursive;
   font-weight: bolder;
   border-radius: 10px;
   box-shadow: 0 0 0 1px #C4EA93, 0 0 0 2px brown;
-  background-color: #FFD6BD;
+  background-color: #FFE5B4;
   line-height: 1em;
   margin: 0 auto;
   margin-top: 0.5em;
-  color: #66442F;
+  color: #011F4B;
   letter-spacing: 3px;
 }
 
 /* Style for the body */
 body {
-    background-color: #C4EA93;
+    background-color: #0086ad;
 }
 
 h3 {
     text-align: center;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 30px;
-    color: #66442F;
+    color: #011F4B;
 }
 
 h4 {
     text-align: center;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 15px;
-    color: #66442F;
+    color: #011F4B;
 }
   /* Style for the navigation */
 .nav {
@@ -44,7 +44,7 @@ h4 {
   
   .nav a {
     text-decoration: none;
-    color: #66574E;
+    color: #011F4B;
     font-weight: bold;
     font-family: 'Cinzel', serif;
     letter-spacing: 3px;
@@ -63,11 +63,11 @@ h4 {
   /* Style for the bookmark container */
   .bookmark-container, .bookmarks-container Form {
     font-family: 'Bricolage Grotesque', sans-serif;
-    color: #66442F;
+    color: #011F4B;
     padding: 35px;
     width: 80%;
     margin: 0 auto;
-    background-color:#A5E650;
+    background-color: #FFE5B4;
     border-radius: 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center the content */
@@ -100,7 +100,7 @@ h4 {
   
   .bookmark-form input[type="submit"]:hover {
     background-color: #66574E;
-    color: #FFD6BD;
+    color: #011F4B;
   }
 
   .bookmarks-container ul {
@@ -113,15 +113,15 @@ h4 {
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 30px;
     list-style: none;
-    color: #66442F;
+    color: #011F4B;
 
     a {
       text-decoration: none;
-      color: #66442F;
+      color: #011F4B;
     }
 
     a:hover {
-      color: #442e20;
+      color: #011F4B;
       transition: color 0.3s ease;
     }
 
@@ -130,7 +130,7 @@ h4 {
     height: 175px;
     line-height: 175px;
     margin: 10px auto;
-    background-color:#FFD6BD;
+    background-color:#FFE5B4;
     border-radius: 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
