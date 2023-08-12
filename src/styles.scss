@@ -63,7 +63,7 @@ h4 {
     font-family: 'Bricolage Grotesque', sans-serif;
     color: #66442F;
     padding: 35px;
-    width: 700px;
+    width: 80%;
     margin: 0 auto;
     background-color:#FFD6BD;
     border-radius: 8px;
@@ -77,7 +77,7 @@ h4 {
   
   /* Style for the form inputs */
   .bookmark-form input[type="text"] {
-    width: 100%;
+    width: 90%;
     padding: 8px;
     margin: 6px 0;
     border: 1px solid #ccc;
@@ -101,6 +101,12 @@ h4 {
     color: #FFD6BD;
   }
 
+  .bookmarks-container ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(425px, 1fr));
+    grid-gap: 5px 10px;
+  }
+
   .bookmark {
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 30px;
@@ -118,8 +124,9 @@ h4 {
     }
 
     padding: 35px;
-    width: 450px;
-    height: 250px;
+    width: 350px;
+    height: 175px;
+    line-height: 175px;
     margin: 10px auto;
     background-color:#FFD6BD;
     border-radius: 8px;
