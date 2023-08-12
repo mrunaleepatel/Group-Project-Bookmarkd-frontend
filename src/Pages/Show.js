@@ -6,7 +6,7 @@ function Show(props) {
     return (
         <div className="bookmark-container">
             <h3>{bookmark.title}</h3>
-            <h4>{bookmark.url}</h4>
+            <h4><a href={bookmark.url}>{bookmark.url}</a></h4>
 
             <Form action={`/update/${bookmark._id}`} method="post" className="bookmark-form">
                 <input type="text" name="title" placeholder="Item name" defaultValue={bookmark.title} />
