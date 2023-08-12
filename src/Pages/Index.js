@@ -4,22 +4,24 @@ function Index(props) {
     const bookmarks = useLoaderData();
     
     return (
-        <div className="bookmark-container">
-            <h2>Create a Bookmark</h2>
-            <Form action="/create" method="post">
-                <input type="text" name="title" placeholder="book's title"/>
-                <input type="text" name="url" placeholder="book's url" />
-                <input type="submit" value="Create Bookmark"/>
+        <div className="bookmarks-container">
+            <Form action="/create" method="post" className="bookmark-form">
+                <h2 className="bookmark-form">Add a new item to your wishlist:</h2>
+                <input type="text" name="title" placeholder="Item name"/>
+                <input type="text" name="url" placeholder="Item URL" />
+                <input type="submit" value="Add Item"/>
             </Form>
+            <ul>
             {bookmarks.map((bookmark, index) => {
                 return(
-                    <div key={bookmark._id} className="bookmark">
+                    <li key={bookmark._id} className="bookmark">
                         <Link to={`/${bookmark._id}`}>
-                            <h1>{bookmark.title}</h1>
+                            {bookmark.title}
                         </Link>
-                    </div>
+                    </li>
                 );
-        })}
+            })}
+            </ul>
     </div>
     );
 }
